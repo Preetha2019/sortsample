@@ -4,8 +4,10 @@
 int main()
 {
     char *pstring=malloc(32);
-    printf("Enter the string");
+    while(pstring!="")
+    {
     gets(pstring);
     printf("The string is %s", pstring);
+    }
     return 0;
 }
